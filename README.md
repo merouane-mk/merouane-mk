@@ -37,9 +37,3 @@
 - **Windows Server** : monter un domaine, gérer des utilisateurs et intégrer des postes.
 - **GLPI sous Ubuntu Server** : installer un outil de gestion de parc et le relier à Active Directory avec LDAP.
 - **Cisco Packet Tracer** : construire des maquettes, configurer l’adressage et tester les communications.
-
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
-
-## Le lab
-
-<img src="assets/lab.svg" width="100%" alt="Schéma du lab : Internet vers pfSense, qui bloque le trafic non autorisé, puis un switch vers VLAN, Active Directory et GLPI." />
