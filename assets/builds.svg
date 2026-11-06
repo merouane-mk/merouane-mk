@@ -2,8 +2,8 @@
   <title id="t">Ce que j’ai monté</title>
   <desc id="d">Windows Server : Monter un domaine, gérer des utilisateurs et intégrer des postes. GLPI sous Ubuntu Server : Installer un outil de gestion de parc et le relier à Active Directory avec LDAP. Cisco Packet Tracer : Construire des maquettes, configurer l’adressage et tester les communications.</desc>
   <style>
-    .s { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #c9d1d9; }
-    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #c9d1d9; }
+    .s { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #d4d4d8; }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #d4d4d8; }
     .muted { fill-opacity: .7; }
     .card { stroke-opacity: .35; }
     @keyframes card { 0%, 100% { stroke-opacity: .25; } 15% { stroke-opacity: 1; } 33% { stroke-opacity: .25; } }
@@ -12,25 +12,25 @@
     }
   </style>
   <defs>
-    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10292b"/><stop offset=".6" stop-color="#0d1117"/></linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#134e4a"/></linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1c1f"/><stop offset=".6" stop-color="#111113"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#52525b"/><stop offset="1" stop-color="#27272a"/></linearGradient>
   </defs>
   <rect x="1" y="1" width="958" height="256" rx="14" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/>
   <text class="s" x="28" y="44" font-size="22" font-weight="700">Ce que j’ai monté</text>
-  <rect class="card" style="animation-delay:0s" x="24" y="66" width="288" height="168" rx="10" fill="#5eead4" fill-opacity=".05" stroke="#5eead4"/>
-  <text class="m" x="40" y="96" font-size="14" style="fill:#5eead4">01</text>
+  <rect class="card" style="animation-delay:0s" x="24" y="66" width="288" height="168" rx="10" fill="#e4e4e7" fill-opacity=".05" stroke="#e4e4e7"/>
+  <text class="m" x="40" y="96" font-size="14" style="fill:#e4e4e7">01</text>
   <text class="s" x="40" y="124" font-size="18" font-weight="700">Windows Server</text>
   <text class="s" x="40" y="152" font-size="15">Monter un domaine, gérer</text>
   <text class="s" x="40" y="174" font-size="15">des utilisateurs et intégrer</text>
   <text class="s" x="40" y="196" font-size="15">des postes.</text>
-  <rect class="card" style="animation-delay:2s" x="336" y="66" width="288" height="168" rx="10" fill="#5eead4" fill-opacity=".05" stroke="#5eead4"/>
-  <text class="m" x="352" y="96" font-size="14" style="fill:#5eead4">02</text>
+  <rect class="card" style="animation-delay:2s" x="336" y="66" width="288" height="168" rx="10" fill="#e4e4e7" fill-opacity=".05" stroke="#e4e4e7"/>
+  <text class="m" x="352" y="96" font-size="14" style="fill:#e4e4e7">02</text>
   <text class="s" x="352" y="124" font-size="18" font-weight="700">GLPI sous Ubuntu Server</text>
   <text class="s" x="352" y="152" font-size="15">Installer un outil de gestion</text>
   <text class="s" x="352" y="174" font-size="15">de parc et le relier à Active</text>
   <text class="s" x="352" y="196" font-size="15">Directory avec LDAP.</text>
-  <rect class="card" style="animation-delay:4s" x="648" y="66" width="288" height="168" rx="10" fill="#5eead4" fill-opacity=".05" stroke="#5eead4"/>
-  <text class="m" x="664" y="96" font-size="14" style="fill:#5eead4">03</text>
+  <rect class="card" style="animation-delay:4s" x="648" y="66" width="288" height="168" rx="10" fill="#e4e4e7" fill-opacity=".05" stroke="#e4e4e7"/>
+  <text class="m" x="664" y="96" font-size="14" style="fill:#e4e4e7">03</text>
   <text class="s" x="664" y="124" font-size="18" font-weight="700">Cisco Packet Tracer</text>
   <text class="s" x="664" y="152" font-size="15">Construire des maquettes,</text>
   <text class="s" x="664" y="174" font-size="15">configurer l’adressage et</text>
