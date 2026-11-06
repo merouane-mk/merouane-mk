@@ -1,12 +1,5 @@
 <p align="center">
-  <img src="./assets/mk-logo.png" width="112" alt="Logo MK" />
-</p>
-
-<h1 align="center">Mérouane</h1>
-
-<p align="center">
-  Systèmes · Réseaux · Cybersécurité<br />
-  J’apprends l’infrastructure en la construisant dans mon lab.
+  <img src="./assets/hero.svg" width="100%" alt="Mérouane. Systèmes, réseaux, cybersécurité. Comprendre, tester, construire. Animation : des paquets traversent pfSense et un switch vers des VLAN, Active Directory et GLPI, un paquet est bloqué par le pare-feu." />
 </p>
 
 <p align="center">
@@ -23,7 +16,7 @@
 | Support et parc | GLPI, AnyDesk, TeamViewer |
 | Programmation | Bases en Python, notions de SQL, PowerShell en apprentissage |
 
-## Dans mon lab
+## Ce que j’ai monté
 
 - **Windows Server** : monter un domaine, gérer des utilisateurs et intégrer des postes.
 - **GLPI sous Ubuntu Server** : installer un outil de gestion de parc et le relier à Active Directory avec LDAP.
