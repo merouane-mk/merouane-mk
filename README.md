@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="mailto:merouane.karki@gmail.com">Me contacter</a> ·
-  <a href="https://github.com/K2MDev?tab=repositories">Voir mes dépôts</a>
+  <a href="https://github.com/merouane-mk?tab=repositories">Voir mes dépôts</a>
 </p>
 
 ## Outils
