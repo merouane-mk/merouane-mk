@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="t d">
+  <title id="t">Schéma du lab</title>
+  <desc id="d">Internet vers pfSense, qui bloque le trafic non autorisé, puis un switch vers VLAN, AD et GLPI.</desc>
+  <style>
+    .pkt { opacity: 0; }
+    @keyframes drop {
+      0%, 8% { opacity: 0; transform: translate(180px, 120px); }
+      12% { opacity: 1; }
+      40% { opacity: 1; transform: translate(266px, 120px); }
+      52%, 100% { opacity: 0; transform: translate(266px, 120px); }
+    }
+    /* Points de passage proportionnels à la distance, pour une vitesse constante. */
+    @keyframes to-vlan {
+      0% { opacity: 0; transform: translate(180px, 120px); }
+      2% { opacity: 1; }
+      59.2% { transform: translate(645px, 120px); }
+      68% { transform: translate(645px, 50px); }
+      75% { opacity: 1; transform: translate(700px, 50px); }
+      77%, 100% { opacity: 0; transform: translate(700px, 50px); }
+    }
+    @keyframes to-glpi {
+      0% { opacity: 0; transform: translate(180px, 120px); }
+      2% { opacity: 1; }
+      59.2% { transform: translate(645px, 120px); }
+      68% { transform: translate(645px, 190px); }
+      75% { opacity: 1; transform: translate(700px, 190px); }
+      77%, 100% { opacity: 0; transform: translate(700px, 190px); }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .p-drop { animation: drop 8s linear infinite; }
+      .p-vlan { animation: to-vlan 8s linear infinite; }
+      .p-glpi { animation: to-glpi 8s linear 4s infinite; }
+    }
+  </style>
+  <rect x="1" y="1" width="958" height="238" rx="12" fill="#111113" stroke="#3f3f46"/>
+  <path d="M180 120H700M645 50V190M645 50H700M645 190H700" fill="none" stroke="#71717a" stroke-width="1.25"/>
+  <circle class="pkt p-vlan" r="4" fill="#e4e4e7"/>
+  <circle class="pkt p-glpi" r="4" fill="#e4e4e7"/>
+  <circle class="pkt p-drop" r="4" fill="#d29922"/>
+  <g>
+    <rect x="60" y="98" width="120" height="44" rx="6" fill="#111113" stroke="#71717a" stroke-width="1.25"/>
+    <text x="120" y="125" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="#e4e4e7" text-anchor="middle">Internet</text>
+    <rect x="270" y="98" width="120" height="44" rx="6" fill="#111113" stroke="#d29922" stroke-width="1.25"/>
+    <text x="330" y="125" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="#e4e4e7" text-anchor="middle">pfSense</text>
+    <rect x="480" y="98" width="110" height="44" rx="6" fill="#111113" stroke="#71717a" stroke-width="1.25"/>
+    <text x="535" y="125" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="#e4e4e7" text-anchor="middle">Switch</text>
+    <rect x="700" y="28" width="190" height="44" rx="6" fill="#111113" stroke="#71717a" stroke-width="1.25"/>
+    <text x="795" y="55" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="#e4e4e7" text-anchor="middle">VLAN</text>
+    <rect x="700" y="98" width="190" height="44" rx="6" fill="#111113" stroke="#71717a" stroke-width="1.25"/>
+    <text x="795" y="125" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="#e4e4e7" text-anchor="middle">AD</text>
+    <rect x="700" y="168" width="190" height="44" rx="6" fill="#111113" stroke="#71717a" stroke-width="1.25"/>
+    <text x="795" y="195" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="#e4e4e7" text-anchor="middle">GLPI</text>
+  </g>
+  <text x="330" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="#d29922" text-anchor="middle">bloqué</text>
+</svg>
