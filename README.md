@@ -9,9 +9,9 @@
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-<p align="center"><img src="assets/signal.svg" width="100%" alt="Signal : 15 outils, 4 domaines, 3 réalisations, 1 lab." /></p>
+<p align="center"><img src="assets/signal.svg" width="100%" alt="Signal : 18 outils, 5 domaines, 3 réalisations, 1 lab." /></p>
 
-<p align="center"><img src="assets/stack.svg" width="100%" alt="Outils. Systèmes et services : Windows Server, Active Directory, Ubuntu Server, DNS, DHCP. Réseaux : Cisco Packet Tracer, TCP/IP, VLAN, pfSense. Support et parc : GLPI, AnyDesk, TeamViewer. Programmation : Python, SQL, PowerShell." /></p>
+<p align="center"><img src="assets/stack.svg" width="100%" alt="Outils. Systèmes et services : Windows Server, Active Directory, Ubuntu Server, DNS, DHCP. Réseaux : Cisco Packet Tracer, TCP/IP, VLAN, pfSense. Support et parc : GLPI, AnyDesk, TeamViewer. Programmation : Python, SQL, PowerShell. IA : Claude, Claude Code, OpenAI." /></p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
