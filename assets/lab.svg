@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="t d">
+  <title id="t">Le lab</title>
+  <desc id="d">Internet vers pfSense, qui bloque un paquet, puis un switch vers VLAN, AD et GLPI.</desc>
+  <style>
+    .s { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #c9d1d9; }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #c9d1d9; }
+    .muted { fill-opacity: .7; }
+    .node { fill: #0d1117; stroke: #5eead4; stroke-width: 1.5; }
+    .pkt { opacity: 0; }
+    .dot { transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%, 100% { opacity: .45; transform: scale(1); } 50% { opacity: 1; transform: scale(1.4); } }
+    @keyframes bloque {
+      0%, 24% { opacity: .4; }
+      25%, 36% { opacity: 1; }
+      37%, 44% { opacity: .4; }
+      45%, 60% { opacity: 1; }
+      61%, 100% { opacity: .4; }
+    }
+    @keyframes drop {
+      0%, 4% { opacity: 0; transform: translate(180px, 150px); }
+      5% { opacity: 1; }
+      25% { opacity: 1; transform: translate(266px, 150px); }
+      32%, 100% { opacity: 0; transform: translate(266px, 150px); }
+    }
+    /* Points de passage proportionnels à la distance, pour une vitesse constante. */
+    @keyframes to-ad {
+      0% { opacity: 0; transform: translate(180px, 150px); }
+      1% { opacity: 1; }
+      33.1% { opacity: 1; transform: translate(700px, 150px); }
+      34.1%, 100% { opacity: 0; transform: translate(700px, 150px); }
+    }
+    @keyframes to-vlan {
+      0% { opacity: 0; transform: translate(180px, 150px); }
+      1% { opacity: 1; }
+      29.6% { transform: translate(645px, 150px); }
+      34% { transform: translate(645px, 80px); }
+      37.5% { opacity: 1; transform: translate(700px, 80px); }
+      38.5%, 100% { opacity: 0; transform: translate(700px, 80px); }
+    }
+    @keyframes to-glpi {
+      0% { opacity: 0; transform: translate(180px, 150px); }
+      1% { opacity: 1; }
+      29.6% { transform: translate(645px, 150px); }
+      34% { transform: translate(645px, 220px); }
+      37.5% { opacity: 1; transform: translate(700px, 220px); }
+      38.5%, 100% { opacity: 0; transform: translate(700px, 220px); }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .dot { animation: pulse 4s ease-in-out infinite; }
+      .bloque { animation: bloque 4s linear infinite; }
+      .p-drop { animation: drop 4s linear infinite; }
+      .p-ad { animation: to-ad 8s linear infinite; }
+      .p-vlan { animation: to-vlan 8s linear 2.6s infinite; }
+      .p-glpi { animation: to-glpi 8s linear 5.2s infinite; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10292b"/><stop offset=".6" stop-color="#0d1117"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#134e4a"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="958" height="298" rx="14" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/>
+  <text class="s" x="28" y="44" font-size="22" font-weight="700">Le lab</text>
+  <path d="M180 150H700M645 80V220M645 80H700M645 220H700" fill="none" stroke="#c9d1d9" stroke-opacity=".35" stroke-width="1.5"/>
+  <circle class="pkt p-ad" r="4.5" fill="#5eead4"/>
+  <circle class="pkt p-vlan" r="4.5" fill="#5eead4"/>
+  <circle class="pkt p-glpi" r="4.5" fill="#5eead4"/>
+  <circle class="pkt p-drop" r="4.5" fill="#d29922"/>
+  <g>
+    <rect class="node " x="60" y="128" width="120" height="44" rx="8" style="stroke:#c9d1d9;stroke-opacity:.5"/>
+    <text class="m" x="120" y="155" font-size="15" text-anchor="middle">Internet</text>
+    <rect class="node " x="270" y="128" width="120" height="44" rx="8" style="stroke:#d29922"/>
+    <text class="m" x="330" y="155" font-size="15" text-anchor="middle">pfSense</text>
+    <rect class="node " x="480" y="128" width="110" height="44" rx="8" style=""/>
+    <text class="m" x="535" y="155" font-size="15" text-anchor="middle">Switch</text>
+    <rect class="node " x="700" y="58" width="190" height="44" rx="8" style=""/>
+    <text class="m" x="795" y="85" font-size="15" text-anchor="middle">VLAN</text>
+    <rect class="node " x="700" y="128" width="190" height="44" rx="8" style=""/>
+    <text class="m" x="795" y="155" font-size="15" text-anchor="middle">AD</text>
+    <rect class="node " x="700" y="198" width="190" height="44" rx="8" style=""/>
+    <text class="m" x="795" y="225" font-size="15" text-anchor="middle">GLPI</text>
+    <text class="m bloque" x="330" y="196" font-size="14" text-anchor="middle" style="fill:#d29922">bloqué</text>
+  </g>
+  <circle class="dot" style="animation-delay:0s" cx="180" cy="128" r="4.5" fill="#5eead4"/>
+  <circle class="dot" style="animation-delay:0.6s" cx="390" cy="128" r="4.5" fill="#d29922"/>
+  <circle class="dot" style="animation-delay:1.2s" cx="590" cy="128" r="4.5" fill="#5eead4"/>
+  <circle class="dot" style="animation-delay:1.8s" cx="890" cy="58" r="4.5" fill="#5eead4"/>
+  <circle class="dot" style="animation-delay:1.8s" cx="890" cy="128" r="4.5" fill="#5eead4"/>
+  <circle class="dot" style="animation-delay:1.8s" cx="890" cy="198" r="4.5" fill="#5eead4"/>
+  <text class="s muted" x="28" y="274" font-size="14">pfSense filtre le trafic avant qu’il atteigne le switch et les services.</text>
+</svg>

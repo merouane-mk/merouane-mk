@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 318" role="img" aria-labelledby="t d">
+  <title id="t">Outils</title>
+  <desc id="d">Systèmes et services : Windows Server, Active Directory, Ubuntu Server, DNS, DHCP. Réseaux : Cisco Packet Tracer, TCP/IP, VLAN, pfSense. Support et parc : GLPI, AnyDesk, TeamViewer. Programmation : Python, SQL, PowerShell.</desc>
+  <style>
+    .s { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #c9d1d9; }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #c9d1d9; }
+    .muted { fill-opacity: .7; }
+    @keyframes pill { 0% { opacity: .78; } 6%, 20% { opacity: 1; } 30%, 100% { opacity: .78; } }
+    @media (prefers-reduced-motion: no-preference) {
+      .pill { animation: pill 8s linear infinite backwards; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10292b"/><stop offset=".6" stop-color="#0d1117"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#134e4a"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="958" height="316" rx="14" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/>
+  <text class="s" x="28" y="44" font-size="22" font-weight="700">Outils</text>
+  <text class="s muted" x="28" y="66" font-size="14">Ce que j’ai pratiqué, par domaine.</text>
+  <text class="s" x="28" y="114" font-size="15" font-weight="600">Systèmes et services</text>
+  <g class="pill" style="animation-delay:0.00s"><rect x="230" y="92" width="141.6" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="242.0" y="114" font-size="14" textLength="117.6">Windows Server</text></g>
+  <g class="pill" style="animation-delay:0.25s"><rect x="379.6" y="92" width="158.4" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="391.6" y="114" font-size="14" textLength="134.4">Active Directory</text></g>
+  <g class="pill" style="animation-delay:0.50s"><rect x="546" y="92" width="133.2" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="558.0" y="114" font-size="14" textLength="109.2">Ubuntu Server</text></g>
+  <g class="pill" style="animation-delay:0.75s"><rect x="687.2" y="92" width="49.2" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="699.2" y="114" font-size="14" textLength="25.2">DNS</text></g>
+  <g class="pill" style="animation-delay:1.00s"><rect x="744.4000000000001" y="92" width="57.6" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="756.4" y="114" font-size="14" textLength="33.6">DHCP</text></g>
+  <text class="s" x="28" y="168" font-size="15" font-weight="600">Réseaux</text>
+  <g class="pill" style="animation-delay:1.25s"><rect x="230" y="146" width="183.6" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="242.0" y="168" font-size="14" textLength="159.6">Cisco Packet Tracer</text></g>
+  <g class="pill" style="animation-delay:1.50s"><rect x="421.6" y="146" width="74.4" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="433.6" y="168" font-size="14" textLength="50.4">TCP/IP</text></g>
+  <g class="pill" style="animation-delay:1.75s"><rect x="504" y="146" width="57.6" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="516.0" y="168" font-size="14" textLength="33.6">VLAN</text></g>
+  <g class="pill" style="animation-delay:2.00s"><rect x="569.6" y="146" width="82.8" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="581.6" y="168" font-size="14" textLength="58.8">pfSense</text></g>
+  <text class="s" x="28" y="222" font-size="15" font-weight="600">Support et parc</text>
+  <g class="pill" style="animation-delay:2.25s"><rect x="230" y="200" width="57.6" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="242.0" y="222" font-size="14" textLength="33.6">GLPI</text></g>
+  <g class="pill" style="animation-delay:2.50s"><rect x="295.6" y="200" width="82.8" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="307.6" y="222" font-size="14" textLength="58.8">AnyDesk</text></g>
+  <g class="pill" style="animation-delay:2.75s"><rect x="386.40000000000003" y="200" width="108.0" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="398.4" y="222" font-size="14" textLength="84.0">TeamViewer</text></g>
+  <text class="s" x="28" y="276" font-size="15" font-weight="600">Programmation</text>
+  <g class="pill" style="animation-delay:3.00s"><rect x="230" y="254" width="74.4" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="242.0" y="276" font-size="14" textLength="50.4">Python</text></g>
+  <g class="pill" style="animation-delay:3.25s"><rect x="312.4" y="254" width="49.2" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="324.4" y="276" font-size="14" textLength="25.2">SQL</text></g>
+  <g class="pill" style="animation-delay:3.50s"><rect x="369.59999999999997" y="254" width="108.0" height="34" rx="17" fill="#5eead4" fill-opacity=".08" stroke="#5eead4" stroke-opacity=".5"/><text class="m" x="381.6" y="276" font-size="14" textLength="84.0">PowerShell</text></g>
+</svg>

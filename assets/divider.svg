@@ -1,19 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 12" aria-hidden="true">
   <style>
-    @keyframes glide {
-      from { transform: translateX(0); }
-      to { transform: translateX(1080px); }
-    }
-    @media (prefers-reduced-motion: no-preference) {
-      .glide { animation: glide 6s linear infinite; }
-    }
+    @keyframes glide { from { transform: translateX(0); } to { transform: translateX(1080px); } }
+    @media (prefers-reduced-motion: no-preference) { .glide { animation: glide 6s linear infinite; } }
   </style>
-  <defs>
-    <linearGradient id="g">
-      <stop offset="0" stop-color="#3fb950" stop-opacity="0"/>
-      <stop offset="1" stop-color="#3fb950"/>
-    </linearGradient>
-  </defs>
+  <defs><linearGradient id="g"><stop offset="0" stop-color="#5eead4" stop-opacity="0"/><stop offset="1" stop-color="#5eead4"/></linearGradient></defs>
   <rect width="960" height="12" rx="6" fill="#0d1117"/>
   <rect y="5.5" width="960" height="1" fill="#c9d1d9" fill-opacity=".25"/>
   <rect class="glide" x="-120" y="5" width="120" height="2" fill="url(#g)"/>
